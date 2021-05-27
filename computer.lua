@@ -6,6 +6,7 @@ computer = {}
 --- Plays a tone, useful to alert users via audible feedback. Supports frequencies from 20 to 2000Hz, with a duration of up to 5 seconds.
 ---
 --- This method is overloaded taking a single string parameter as a pattern of dots `.` and dashes `-` for short and long beeps respectively.
+---
 ---@overload fun(beeps: string)
 ---@param frequency? integer
 ---@param duration? number
